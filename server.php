@@ -13,7 +13,7 @@ $database = [
     'poster' => 'https://img.discogs.com/9G4_chDMrst5JhWAeK3Ak2kLMtg=/fit-in/600x537/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-10269901-1494429619-1062.jpeg.jpg'
   ],
   [
-    'title' => 'TheManInTheRadiator',
+    'title' => 'TheManRadiator',
     'author' => 'Bones',
     'year' => 1988,
     'poster' => 'https://img.discogs.com/hhp6xTYMfMnhUlgSOE0y-qhhtEo=/fit-in/554x554/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-12760733-1541431232-4362.jpeg.jpg'
@@ -47,6 +47,12 @@ $database = [
     'author' => 'Mike Oldfield',
     'year' => 1983,
     'poster' => 'https://img.discogs.com/imTvzEgUVdqotIBMEgIgcK6r1IA=/fit-in/600x609/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-259136-1482871858-5312.jpeg.jpg'
+  ],
+  [
+    'title' => 'Illusion',
+    'author' => 'VNV Nation',
+    'year' => 2007,
+    'poster' => 'https://img.discogs.com/Q2o095yu0q74IoksJaIwYC9wt3o=/fit-in/600x538/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-946187-1175935340.jpeg.jpg'
   ]
 ];
 // var_dump($database);

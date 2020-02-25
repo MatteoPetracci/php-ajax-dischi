@@ -56,6 +56,14 @@ main section {
   display: flex;
   flex-wrap: wrap;
 }
+main section .box_album {
+  padding: 15px 40px;
+  margin: 10px;
+  background-color: black;
+}
+main section .box_album h2, main section .box_album h3, main section .box_album h4 {
+  text-align: center;
+}
 main section .box_album img {
   width: 200px;
   height: 200px;
