@@ -17,6 +17,14 @@
       </nav>
     </header>
     <main>
+      <?php foreach ($database as $value) { ?>
+          <div class="box_album">
+            <img src="<?php echo $value['poster'] ?>" alt="">
+            <h2></h2>
+            <h3></h3>
+            <h4></h4>
+          </div>
+      <?php } ?>
 
     </main>
   </body>
