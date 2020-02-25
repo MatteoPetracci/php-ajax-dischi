@@ -10,20 +10,23 @@
    font-style:normal}
 
 body {
-  $fontsize: 16px;
+  font-size: $fontsize;
   font-family:'Circular';
 }
 
 h2 {
   color: white;
+  font-size: $fontsize * .9;
 }
 
 h3 {
   color: grey;
+  font-size: $fontsize / 1.4;
 }
 
 h4 {
   color: lightgrey;
+  font-size: $fontsize / 1.2;
 }
 
 i {

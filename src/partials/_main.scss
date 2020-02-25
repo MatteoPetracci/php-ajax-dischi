@@ -7,18 +7,18 @@ main {
     width: 60%;
     margin: auto;
     padding: 100px 0;
-    display: flex;
-    flex-wrap: wrap;
+    @include displayFlex;
     .box_album {
-      padding: 15px 40px;
-      margin: 10px;
+      padding: 25px;
+      margin: 15px;
       background-color: black;
       h2,h3,h4 {
         text-align: center;
+        padding: 3px 0;
       }
       img {
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
       }
     }
   }
