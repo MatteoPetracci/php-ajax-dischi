@@ -1,0 +1,16 @@
+// _header
+
+header {
+  height: 70px;
+  background-color: black;
+  nav {
+    width: 70%;
+    margin: auto;
+    .logo {
+      line-height: 70px;
+      i {
+        color: #1ED760;
+      }
+    }
+  }
+}

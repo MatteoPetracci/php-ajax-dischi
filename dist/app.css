@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+}
+
+i {
+  font-size: 1.8em;
+}
+
+header {
+  height: 70px;
+  background-color: black;
+}
+header nav {
+  width: 70%;
+  margin: auto;
+}
+header nav .logo {
+  line-height: 70px;
+}
+header nav .logo i {
+  color: #1ED760;
+}
+
+main {
+  background-color: #191919;
+  height: 1000px;
+}

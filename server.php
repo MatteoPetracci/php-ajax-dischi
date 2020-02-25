@@ -49,5 +49,5 @@ $database = [
     'poster' => 'https://img.discogs.com/imTvzEgUVdqotIBMEgIgcK6r1IA=/fit-in/600x609/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-259136-1482871858-5312.jpeg.jpg'
   ]
 ];
-var_dump($database)
+// var_dump($database);
 ?>
