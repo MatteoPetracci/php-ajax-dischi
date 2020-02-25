@@ -4,8 +4,14 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Circular";
+  src: url("https://sp-bootstrap.global.ssl.fastly.net/7.3.0/fonts/circular-book.woff2") format("woff2"), url("https://sp-bootstrap.global.ssl.fastly.net/7.3.0/fonts/circular-book.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
 body {
-  font-size: 16px;
+  font-family: "Circular";
 }
 
 h2 {
@@ -47,4 +53,10 @@ main section {
   width: 60%;
   margin: auto;
   padding: 100px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+main section .box_album img {
+  width: 200px;
+  height: 200px;
 }
