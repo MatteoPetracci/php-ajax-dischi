@@ -29,7 +29,7 @@ header {
   background-color: black;
 }
 header nav {
-  width: 70%;
+  width: 60%;
   margin: auto;
 }
 header nav .logo {
@@ -42,4 +42,9 @@ header nav .logo i {
 main {
   background-color: #191919;
   height: 100%;
+}
+main section {
+  width: 60%;
+  margin: auto;
+  padding: 100px 0;
 }
