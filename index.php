@@ -20,9 +20,9 @@
       <?php foreach ($database as $value) { ?>
           <div class="box_album">
             <img src="<?php echo $value['poster'] ?>" alt="copertina album">
-            <h2><?php echo $value['title'] ?></h2>
-            <h3></h3>
-            <h4></h4>
+            <h2><?php echo $value['title']; ?></h2>
+            <h3><?php echo $value['author']; ?></h3>
+            <h4><?php echo $value['year']; ?></h4>
           </div>
       <?php } ?>
 
