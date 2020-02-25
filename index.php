@@ -19,8 +19,8 @@
     <main>
       <?php foreach ($database as $value) { ?>
           <div class="box_album">
-            <img src="<?php echo $value['poster'] ?>" alt="">
-            <h2></h2>
+            <img src="<?php echo $value['poster'] ?>" alt="copertina album">
+            <h2><?php echo $value['title'] ?></h2>
             <h3></h3>
             <h4></h4>
           </div>
