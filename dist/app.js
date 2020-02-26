@@ -15815,11 +15815,34 @@ module.exports = g;
 
 var $ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
 
-var Handlebars = __webpack_require__(/*! handlebars */ "./node_modules/handlebars/dist/cjs/handlebars.js"); // $(document).ready(function(){
-//   $.ajax({
-//     'url':
-//   });
-// })
+var Handlebars = __webpack_require__(/*! handlebars */ "./node_modules/handlebars/dist/cjs/handlebars.js");
+
+$(document).ready(function () {
+  // alert('ciao');
+  $.ajax({
+    'url': 'http://localhost/php-ajax-dischi/server-2.php',
+    'method': 'GET',
+    'success': function success(data) {
+      // console.log(data);
+      printCd(data);
+    },
+    'error': function error(_error) {
+      alert('error' + _error);
+    }
+  });
+});
+
+function printCd(cd) {
+  var source = $("#entry-template").html();
+  console.log(source);
+  var template = Handlebars.compile(source);
+
+  for (var i = 0; i < cd.length; i++) {
+    var context = cd[i];
+    var html = template(context);
+    $('main').append(html);
+  }
+}
 
 /***/ }),
 

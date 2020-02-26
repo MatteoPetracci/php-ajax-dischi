@@ -28,7 +28,6 @@
           </div>
         <?php } ?>
       </section>
-
     </main>
   </body>
 </html>
