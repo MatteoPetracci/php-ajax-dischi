@@ -24,6 +24,6 @@ function printCd(cd) {
   for (var i = 0; i < cd.length; i++) {
     var context = cd[i];
     var html = template(context);
-    $('main').append(html);
+    $('section').append(html);
   }
 }

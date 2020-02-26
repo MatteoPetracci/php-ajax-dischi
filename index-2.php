@@ -16,17 +16,19 @@
       </nav>
     </header>
     <main>
+      <section>
 
+      </section>
     </main>
     <script id="entry-template" type="text/x-handlebars-template">
-      <section>
+      <!-- <section> -->
         <div class="box_album">
           <img src= "{{poster}}" alt="copertina album">
           <h2>{{title}}</h2>
           <h3>{{author}}</h3>
           <h4>{{year}}</h4>
         </div>
-      </section>
+      <!-- </section> -->
     </script>
     <script src="dist/app.js" charset="utf-8"></script>
   </body>
